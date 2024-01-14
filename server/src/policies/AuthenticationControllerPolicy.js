@@ -29,7 +29,7 @@ module.exports = {
         
       default:
 
-        res.status(400).send({ error: 'Invalid registration information.' });
+        res.status(400).send({ error: 'Form contains invalid registration data.' });
         
     }
 
